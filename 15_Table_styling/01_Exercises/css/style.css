@@ -1,9 +1,15 @@
 body {
-    padding:20px;
-    font-family: sans-serif;
+  padding: 20px;
+  font-family: sans-serif;
 }
 
 /* place styles here */
-.tab {
-
+.tab th {
+  border: 1px solid #aaa;
+  background-color: gold;
+  border-spacing: 20px;
+}
+.tab td {
+  border: 1px solid #aaa;
+  border-spacing: 20px;
 }
