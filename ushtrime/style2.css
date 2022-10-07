@@ -1,0 +1,32 @@
+.btn1 {
+  display: inline-block;
+  padding: 15px 40px;
+  background: dodgerblue;
+  color: #fff;
+  border: 0;
+  font-weight: bold;
+
+  border-radius: 50px;
+}
+.btn2 {
+  display: inline-block;
+  padding: 15px 40px;
+  background: transparent;
+  color: orangered;
+  border: 3px solid orangered;
+  font-weight: bold;
+
+  border-radius: 50px;
+}
+.btn2:hover {
+  box-shadow: 3px 3px 10px black inset;
+}
+
+.btn3 {
+  display: inline-block;
+  padding: 15px 40px;
+  background: rgb(106, 38, 38);
+  font-weight: bold;
+  border-radius: 50px;
+  color: #fff;
+}
