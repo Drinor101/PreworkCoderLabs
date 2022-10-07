@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox</title>
+    <style>
+      .navbar {
+        background-color: dodgerblue;
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+      }
+      .navbar li {
+        display: inline-block;
+      }
+      .navbar a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        font-size: 15px;
+      }
+      .navbar a:hover {
+        color: rgba(255, 255, 255, 0.284);
+      }
+      .login {
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <li><a href="#">Homepage</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contact</a></li>
+      <li class="login"><a href="#">Log in</a></li>
+    </div>
+  </body>
+</html>

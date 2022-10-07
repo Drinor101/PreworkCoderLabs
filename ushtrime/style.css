@@ -1,0 +1,21 @@
+body {
+  background-color: darkgoldenrod;
+}
+.teksti {
+  width: 100%;
+  height: 300px;
+  background-color: red;
+}
+#headPar {
+  color: blueviolet;
+  font-size: 14px;
+}
+
+#headDyt {
+  color: brown;
+  font-size: 17px;
+}
+#headTret {
+  color: darkgreen;
+  font-weight: bold;
+}

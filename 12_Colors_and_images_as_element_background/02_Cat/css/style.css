@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+}
+
+.cat {
+  width: 600px;
+  height: 400px;
+  background-image: url(../images/cat.jpeg);
+  background-size: cover;
+  margin: 200px auto;
+}
